@@ -6,4 +6,4 @@ The Python script [cifar10_SGD.py](cifar10_SGD.py) runs a Gradient Descent algor
 We use the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) to produce these results. Our observations are the following:
 - If the learning rate is too small, then progressive sharpening does not occur fast enough and the EoS is not obtained.
 - As the learning rate increases, the rate of progressive sharpening increases
-- Once the EoS limit is reached, the loss function decreases non-monotonically, and the sharpness oscillates around this EoS limit (typically $\frac{2}{\eta}$ where $\eta$ is the learning rate.
+- Once the EoS limit is reached, the loss function decreases non-monotonically, and the sharpness oscillates around this EoS limit (typically $2/\eta$ where $\eta$ is the learning rate).
